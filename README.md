@@ -1,3 +1,3 @@
-# Elnifio.github.io
+# STOR 565 Final Project
 
-[STOR 565 Homepage](./Recommendation.html)
+This repository is primarily used for STOR 565 Final project. 
