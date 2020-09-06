@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Recommendation System</title>
-        <link rel="stylesheet" href="css/mystyles.css">
+        <link rel="stylesheet" href="assets/bulma-0.9.0/css/bulma.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
@@ -29,11 +29,11 @@
                 <div id="navbarBasicExample" class="navbar-menu is-info">
                     <div class="navbar-end">
 
-                        <a class="navbar-item">
-                            <strong><i class="fa fa-book"></i> &nbsp;Documentation</strong>
+                        <a class="navbar-item" href="#DataDescription">
+                            <strong><i class="fa fa-book"></i> &nbsp;Data Descriptions</strong>
                         </a>
 
-                        <a class="navbar-item" href="WeeklyReport.html">
+                        <a class="navbar-item" href="#WeeklyReport">
                             <strong><i class="fa fa-calendar"></i> &nbsp;Weekly Report</strong>
                         </a>
 
@@ -96,22 +96,8 @@
             </div>
         </section>
 
-        <!-- Weekly Report section -->
-        <section class="section is-light">
-            <div class="container">
-                <div class="content">
-                    <h2 class="title">Latest Weekly Report of Week 1 <em>Sep. 4th</em></h2>
-                    <h5 class="subtitle has-text-grey">Team Role Assignments and Brief Summary of Works</h5>
-                    <span>
-                        Briefly assigned roles to each team members and discussed several dataset candidates for future analysis. Read more at <a href='Sep4.pdf'>here</a>.
-                    </span>
-                    <hr />
-                </div>
-            </div>
-        </section>
-
         <!-- Description section -->
-        <section class="section has-background-white">
+        <section class="section has-background-white" id="DataDescription">
             <div class="container">
                 <div class="content">
                     <div class="columns">
@@ -140,6 +126,25 @@
             </div>
         </section>
 
+        <!-- Weekly Report section -->
+        <section class="section is-light" id="WeeklyReport">
+            <div class="container">
+                <div class="content">
+                    <!-- weekly report for week 1 -->
+                    <div id="Week1Report">
+                        <h2 class="title">Weekly Report of Week 1, <em>Sep. 4th</em></h2>
+                        <h5 class="subtitle has-text-grey">Team Role Assignments and Brief Summary of Works</h5>
+                        <span>
+                            Briefly assigned roles to each team members and discussed several dataset candidates for future analysis. Read more <a href='Sep4.pdf'><i class="fa fa-external-link"></i>&nbsp;here</a>.
+                        </span>
+                        <hr />
+                    </div>
+                    <!-- End for weekly report 1-->
+                </div>
+            </div>
+        </section>
+
+        <!-- footnotes -->
         <section class="section">
             <div class="container">
                 <div class="content">
@@ -148,10 +153,12 @@
                             <h5 class="title has-text-left"><a href="#"><i class="fa fa-arrow-circle-up"></i> &nbsp;Back to top</a></h5>
                         </div>
                         <div class="column">
-                            <h5 class="title has-text-center"></h5>
+                            <h5 class="title has-text-center">Reference Lists</h5>
                         </div>
-                        <div class="column">
+                        <div class="column has-text-right">
                             <!-- <h5 class="title has-text-right">not powered by <i class="fa fa-wordpress"></i></h5> --> 
+                            <h5 class="title has-text-right">Development Tools</h5>
+                            <a href="https://bulma.io/">Bulma</a>
                         </div>
                     </div>
                     
