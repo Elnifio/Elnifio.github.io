@@ -96,30 +96,43 @@
             </div>
         </section>
 
+        
+
         <!-- Description section -->
         <section class="section has-background-white" id="DataDescription">
+            <div class="notification is-warning has-text-centered" onclick="location.reload()">
+                <p><span class="has-text-weight-bold">Notice! </span>If you cannot access some of the newest updates on our website, please click here to <i class="fa fa-refresh"></i> refresh the page:)</p>
+            </div>
             <div class="container">
                 <div class="content">
                     <div class="columns">
                         <div class="column">
                             <h2 class="title">Our goal</h2>
-                            <h5 class="subtitle has-text-grey">Well, we haven't finalize this part yet, so the contents below are just placeholder</h5> 
+                            <h5 class="subtitle has-text-grey">Generally, we would like to build a recommendation system</h5> 
                             <span>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Motivated by the various recommendation systems in current apps, such as Amazon, YouTube, and Spotify, 
+                                we have decided to focus on building a recommendation system for a user-based online service. 
+                                To accomplish this goal, we analyze users' feedback on different objects to build a well-defined recommendation system and improve their overall experience. 
+                                Specifically, we try to develop a list of potential items that a user might like based on their previous ratings.
+
                             </span>
                         </div>
                         <div class="column">
                             <h2 class="title">Our Dataset</h2>
-                            <h5 class="subtitle has-text-grey">Well, this part isn't finalized either</h5>
+                            <h5 class="subtitle has-text-grey">Movie Recommendation System dataset from Kaggle.com</h5>
                             <span>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                This data set consists of all movies released from 1996 to 2016. 
+                                It has four separate files, including link, moives.csv, ratings.csv, and tags.csv. 
+                                UserID, moiveID, ratings, and genres are features that could potentially be used to predict the likelihood of certain users to like certain movies.
+                                You can find our dataset <a href="https://www.kaggle.com/bandikarthik/movie-recommendation-system"><i class="fa fa-link"></i> here</a>.
                             </span>
+                        </div>
+                        <div class="column">
+                            <h2 class="title">Team Proposal</h2>
+                            <h5 class="subtitle has-text-grey">Dataset Description, Motivations, and Techniques</h5>
+                            <span>We tentatively decide to use various methods for classification on our dataset. 
+                            In particular, we decide to use <em>K Nearest-neighbors</em>, <em>basic RNN</em>, and <em>Mixture of Gaussian model</em> to classify and recommend items to a person 
+                            given ones' previous affiliation toward other items. The full proposal can be found <a href="TeamProposal/proposal.pdf"><i class="fa fa-link"></i> here</a>.</span>
                         </div>
                     </div>
                 </div>
@@ -135,7 +148,7 @@
                         <h2 class="title">List of Weekly Reports</h2>
                         <h4 class="subtitle">Week 1, Sept. 4th</h4> 
                         <span>
-                            Team Role Assignments and Brief Summary of WorksRead more <a href='Sep4.pdf'><i class="fa fa-external-link"></i>&nbsp;here</a>.
+                            Team Role Assignments and Brief Summary of Works. Read more <a href='Sep4.pdf'><i class="fa fa-link"></i>&nbsp;here</a>.
                         </span>
                         <hr />
                     </div>
